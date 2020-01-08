@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-sm fixed-top bg-white">
+    <!-- <img src="/assets/images/idea.svg" class="navbar-logo" alt="">  -->
+    &emsp;
+    <a routerLink="/" class="navbar-brand text-dark h2" href="/"><img src="/assets/images/idea.svg" class="m-1" style="max-width: 1.7rem;" alt="" srcset="">IdeaWidea</a>
+    <ul class="navbar-nav nav-items ml-auto">
+        <li class="nav-item ">
+            <a href="/" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize"><i class="material-icons nav-item-icon text-secondary">home</i> Home</button></a>
+        </li>
+        <li class="nav-item">
+            <a href="/products.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize"><i class="material-icons nav-item-icon text-secondary">device_hub</i> Products</button></a>
+        </li>
+        <li class="nav-item">
+            <a href="/forensics.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize"><i class="material-icons nav-item-icon text-secondary">youtube_searched_for</i> Forensics</button></a>
+        </li>
+        <li class="nav-item">
+            <a href="/contact.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize"><i class="material-icons nav-item-icon text-secondary">contacts</i> contact US</button></a>
+        </li>
+    </ul>
+</nav>
+
+<div class="row display-none d-flex justify-content-center fixed-bottom bg-white d-none d-md-none p-4">
+    <div href="/" class="col-3 text-dark">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize">Home</button>
+    </div>
+    <div href="/products.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize"> Products</button></div>
+    <div href="/forensics.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize"> Blog</button></div>
+    <div href="/contact.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-robo text-capitalize"> contact US</button></div>
+</div>
+
+<style>
+.navbar-logo
+{
+    max-width: 2.5rem;
+}
+@media only screen and (max-width: 767px) {
+    .nav-items
+{
+    display: none;
+}
+.display-none
+{
+    display: block;
+}
+}
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+  }
+</style>
+<script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+    // load page top
+    $(document).ready(function(){
+      $(this).scrollTop(0);
+    });
+    </script>

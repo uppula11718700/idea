@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-logo
+{
+    max-width: 2.7rem;
+}
+.bg-color
+{
+    background-color: #103F6D;
+}
+.no-focus
+{
+    background-color: rgb(206, 206, 206);
+    box-sizing: border-box;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}

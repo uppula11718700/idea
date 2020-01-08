@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+.demo-card-wide.mdl-card {
+    width: 400px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+.mdl-card__title
+{
+    background-image: url('/assets/images/blogbg.jpg');
+}

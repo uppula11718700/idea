@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+body
+{
+    color: inherit !important;
+}
+.navbar-logo
+{
+    max-width: 2.7rem;
+}
+.nav-item-icon
+{
+    /* margin-top: 0.4rem; */
+}
+.bg-home
+{
+    max-width: 100%;
+}
+.div-one-heading
+{
+    color: rgb(30, 5, 117);
+}
+.btn-div-one-color
+{
+    background-color: rgba(64, 32, 180, 0.781);
+    display: inline-flex;
+    vertical-align: top;
+}
+@media(min-width:768px){
+.custom-btn-sales
+{
+    background-color: rgba(64, 32, 180, 0.781) !important;
+    border-radius: 10vh;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.div-head
+{
+    background-image: url('/assets/images/bg-home-mobile.png');
+}
+.custom-btn-sales
+{
+    background-color: rgba(64, 32, 180, 0.781) !important;
+    border-radius: 10vh !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+}
+.bg-blog-color
+{
+    background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #7f99b367); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #7f99b367); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.intro-icon-size
+{
+    max-width: 4rem;
+}
+.info-tabs-head
+{
+    color: rgb(30, 5, 117);
+}
+.img-warehouse
+{
+    max-width: 20rem;
+}
+/* blog cards */
+.demo-card-wide.mdl-card {
+    width: 400px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+.mdl-card__title
+{
+    background-image: url('/assets/images/blogbg.jpg');
+}
+/* third */
+
+
+/* material icons */
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-custom { font-size: 30px; }
+
+

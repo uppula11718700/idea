@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+.div-head
+{
+   background-color: #b6acec;
+}
+.head-img
+{
+    max-width: 40rem;
+}
+.head-text-color
+{
+    color: #130852;
+    text-shadow: 2px 2px #ff00007e;
+}
+.icons1-main
+{
+    width: 6rem;
+    padding-bottom: 2rem;
+}
+.div-two-des
+{
+    background-image: url('/assets/images/forensics-sales-bg.png');
+}
+.div-two-sub
+{
+ 
+}
+.btn-sales
+{
+    background-color: #130852;
+}
+.services-logo
+{
+    max-width: 3rem;
+}
+.services-card
+{
+    background-color: white;
+    transition: ease-out 0.7s;
+}
+.services-card:hover
+{
+    background-color: #130852;
+    transition: ease-in 0.5s;
+    color: wheat;
+
+}
